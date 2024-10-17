@@ -1,6 +1,6 @@
 const fs = require("fs");
 
-const arquivo = fs.readFileSync("../exemplo-1.txt", "utf-8");
+const arquivo = fs.readFileSync("./exemplos/exemplo-1.txt", "utf-8");
 
 const dicionario = {
   write: 0,
